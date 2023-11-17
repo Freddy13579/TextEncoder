@@ -1,0 +1,2 @@
+# TextEncoder
+Simple Text Encoder

@@ -6,10 +6,10 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import sys
 
+mysalt = b'q\xeb\xf2X\x0f\xac\x06\xc4\x07\x86F\xe3\xc8\xfc\x96\xe0'
 def encrypt(Text, Passworld):
     print("Encrypting")
     
-    mysalt = b'q\xeb\xf2X\x0f\xac\x06\xc4\x07\x86F\xe3\xc8\xfc\x96\xe0'
     kdf = PBKDF2HMAC (
         algorithm=hashes.SHA256,
         length=32,
@@ -33,7 +33,6 @@ def encrypt(Text, Passworld):
 def decrypt(Text, Passworld):
     print("Decrypting")
     
-    mysalt = b'q\xeb\xf2X\x0f\xac\x06\xc4\x07\x86F\xe3\xc8\xfc\x96\xe0'
     kdf = PBKDF2HMAC (
         algorithm=hashes.SHA256,
         length=32,

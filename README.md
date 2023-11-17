@@ -5,8 +5,10 @@ To get rid of the text copying into the clipboard simply delete lines 28, 53 .
 
 Compile yourself with: ```pyinstaller --noconfirm --onefile --console  "Encoder.py"```
 
-USAGE:
+
+
+USAGE:```
 [Mode e/d] [Text] [Passworld]
 /
-No args -> Guided prompts
+No args -> Guided prompts```
 

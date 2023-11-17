@@ -1,9 +1,8 @@
 # TextEncoder
 Simple Text Encoder with output copying into the clipboard automaticly
+To get rid of the text copying into the clipboard simply delete lines 28, 53 .
 
 USAGE:
 [Mode e/d] [Text] [Passworld]
 /
 No args -> Guided prompts
-
-To get rid of the text copying into the clipboard simply delete lines 28, 53 .

@@ -10,7 +10,9 @@ Compile yourself with: ```pyinstaller --noconfirm --onefile --console  "Encoder.
 USAGE: 
 ```
 [Mode e/d] [Text] [Passworld]
-/
+```
+or
+```
 No args -> Guided prompts
 ```
 
